@@ -1,0 +1,78 @@
+body{
+  background-image: url('./images/beach_image.jpg  ');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% ;
+  background-position-x: center;
+  background-position-y: center;
+}
+#previous_work{
+ position: relative;
+}
+.title{
+  position: relative;
+  display: table;
+  height: 100vh;
+  width: 100vw;
+}
+.text_block{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.title_text{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 5em;
+}
+.header{
+  display: -webkit-flex; /* Safari */
+  -webkit-flex-direction: row-reverse; /* Safari 6.1+ */
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 4em;
+  padding-right: 15em;
+  font-family: 'Itim', cursive;
+
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px ;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header a:hover {
+  background-color: dodgerblue;
+  color: black;
+}
+#previous_work{
+  background-color:#336699;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+}
+.container h2{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Itim', cursive;
+}
+#gallery{
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  padding: 100px;
+}
+.gallery h2{
+  text-align: center;
+  font-family: 'Itim', cursive;
+  font-size: 50px;
+}
+.image_in_gallery{
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  margin: 4px;
+}
